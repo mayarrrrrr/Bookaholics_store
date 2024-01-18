@@ -9,11 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
     let buyButton = document.getElementById("buy")
 
 
-    form.addEventListener("submit", function (e) {
+    form.addEventListener("submit", function (e){
         e.preventDefault();
+
         let searchInput = document.getElementById("searchinput").value
+
         let originalName = searchInput.split(' ').join('')
-        // google.books.load({"language":"en"});
+        
 
         fetch(`https://www.googleapis.com/books/v1/volumes?q=${originalName}&key=AIzaSyDwifnw7NBPTZlGLgC3x1f6RK6M3v9nsEo`)
             .then((result) => result.json())
@@ -102,9 +104,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 }
                 paragraph1.textContent = availe(available)
+
                 paragraph2.textContent = availe(available)
+
                 paragraph3.textContent = availe(available)
-                console.log(paragraph1);
+                
 
 
                 // Display images on the cards
@@ -118,17 +122,19 @@ document.addEventListener("DOMContentLoaded", () => {
                         
                         let imageLink = data.items[index].volumeInfo.imageLinks.smallThumbnail;
 
-                        // Set the image source for the card element
+                    
                         card.src = imageLink;
                     } else {
-                        // If the index is out of range, you can handle it accordingly
+                        
                         console.error("Invalid index:", index);
                     }
                 }
 
-                // Example usage for the first, second, and third cards
+            
                 setCardImage(1, "cardBook", data);
+
                 setCardImage(2, "cardBook2", data);
+                
                 setCardImage(3, "cardBook3", data);
 
 
