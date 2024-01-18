@@ -22,9 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-                // const imageUrl = bookData.items[0].volumeInfo.imageLinks.thumbnail;
-
-
                 // Display single book data(title,description and author) 
 
                 // 1.Title
@@ -111,26 +108,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
                 // Display images on the cards
-                // first card
-                let cardBook = document.getElementById("cardBook");
+                
+                function setCardImage(index, cardId, data) {
+                
+                    let card = document.getElementById(cardId);
 
-                let newCardBook = (data.items[1].volumeInfo.imageLinks.smallThumbnail);
+                    // Check if the index is within the range of data.items
+                    if (index >= 0 && index < data.items.length) {
+                        
+                        let imageLink = data.items[index].volumeInfo.imageLinks.smallThumbnail;
 
-                cardBook.src = newCardBook
+                        // Set the image source for the card element
+                        card.src = imageLink;
+                    } else {
+                        // If the index is out of range, you can handle it accordingly
+                        console.error("Invalid index:", index);
+                    }
+                }
 
-                // second card
-                let cardBook2 = document.getElementById("cardBook2");
+                // Example usage for the first, second, and third cards
+                setCardImage(1, "cardBook", data);
+                setCardImage(2, "cardBook2", data);
+                setCardImage(3, "cardBook3", data);
 
-                let newCardBook2 = (data.items[2].volumeInfo.imageLinks.smallThumbnail);
-
-                cardBook2.src = newCardBook2
-
-                // third card
-                let cardBook3 = document.getElementById("cardBook3");
-
-                let newCardBook3 = (data.items[3].volumeInfo.imageLinks.smallThumbnail);
-
-                cardBook3.src = newCardBook3
 
 
 
