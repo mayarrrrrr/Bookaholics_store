@@ -5,7 +5,7 @@ Bookaholics is an online store that enables book lovers to purchase books online
 
 # Creation
 
-The website is a Mayar's creation as an independent project.
+The project is created by Mayar Akok( Moringa Student).
 
 # Problem statement
 
