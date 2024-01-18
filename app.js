@@ -170,6 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     orderButton.addEventListener("click", () => {
         let searchValue = document.getElementById("clientName").value;
+        
 
         alert(`${searchValue} your order is being processed.Payment is by cash on delivery.Thank you for shopping with us.`)
     })
