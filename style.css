@@ -1,0 +1,253 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.container-fluid nav .logo {
+    display: flex;
+    margin-right: 650px;
+
+}
+
+.container-fluid nav .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.container-fluid nav .logo h2 {
+    font-size: 23px;
+    margin-top: 12px;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.container-fluid nav .links a {
+    text-decoration: none;
+    margin-left: 42px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div .horizontal-line {
+    padding: 10px;
+    color: red;
+}
+
+.row .col-md-5 {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 60px;
+    width: 52%;
+
+
+}
+
+.row .col-md-6 img {
+    width: 50px;
+    height: 50px;
+    margin-left: 560px;
+
+}
+
+input {
+    border-radius: 12px;
+    padding-left: 15px;
+    border: none;
+
+
+}
+
+.display {
+    display: flex;
+}
+
+.book-display {
+    width: 55%;
+    background-color: gray;
+    margin-left: 50px;
+    height: 350px;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.book-display div h4 {
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    margin-top: 20px;
+
+}
+
+.book-display div p {
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 17px;
+
+}
+
+.book-display button {
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(11, 44, 11);
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.isle {
+    width: 1%;
+
+}
+
+.store-display {
+    width: 40%;
+    background-color: gray;
+    height: 650px;
+    margin-top: 10px;
+    margin-right: 50px;
+    box-shadow: 0px 0px 2px;
+}
+
+.book-display2 {
+    width: 55%;
+}
+
+.card {
+    background-color: transparent;
+    height: 280px;
+    margin-top: -280px;
+    margin-left: 50px;
+    width: 200px;
+    box-shadow: 0px 0px 3px;
+
+
+}
+
+img {
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+
+}
+
+.card img {
+    height: 250px;
+    width: 150px;
+
+}
+
+.col-md-4 button {
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    background-color: darkslategrey;
+    margin-top: 35px;
+    padding: 10px;
+    margin-left: 60px;
+    color: wheat;
+
+
+}
+
+.stores div p {
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.store-display h3 {
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 150px;
+
+}
+
+.store-display .stores {
+    background-color: white;
+    height: 170px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.store-display div img {
+    width: 200px;
+    height: 150px;
+    margin-top: 5px;
+
+}
+
+.store-display .stores div {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.store-display .stores div button {
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(11, 44, 11);
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+.footer {
+    background-color: black;
+    margin-top: 40px;
+    height: 60vh;
+    color: white;
+}
+
+
+.footer .box-container {
+    margin: 20px;
+
+
+}
+
+.footer .box-container #links {
+    margin-top: 60px;
+}
+
+.footer .box-container #contacts {
+    margin-top: 30px;
+}
+
+.footer .box-container .box img {
+    height: 50px;
+    width: 50px;
+}
+
+.footer .box-container .box span {
+    color: white;
+    font-weight: 700;
+
+}
+
+.footer .box-container .box i {
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white;
+    margin-top: 10px;
+
+
+
+}
+
+.footer .box-container .box a {
+    text-decoration: none;
+    color: blanchedalmond;
+
+
+}
