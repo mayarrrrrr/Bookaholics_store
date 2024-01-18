@@ -17,7 +17,7 @@ Bookaholics enables readers to find books of choice and see it's availability in
 
 # Project description
 
-Bookaholics enables:
+Bookaholics  enables:
 
    -Searching of books on the input field.
 
@@ -30,6 +30,19 @@ Bookaholics enables:
    -Submiting of an order form has name,phone and location inputs to enable purchase.
 
    -Display of bookshops in bookshops-display(className) div and availability of books in the store.
+
+
+# Project set-up instruction
+ 
+ 1. Create the website design in figma.
+
+ 2. Note down your progress in trello.
+
+ 3. Create and initialize and empty private repository in Github. 
+
+ 4. Create the front-end part of the website using the project descriptions.
+
+ 5. Use a public books API(Google Books) to fetch data to be displayed.
 
 
 
