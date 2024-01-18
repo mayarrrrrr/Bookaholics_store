@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let form = document.getElementById("form");
 
 
-    let bookDisplay = document.getElementById("book-display");
+   
     let buyButton = document.getElementById("buy")
 
 
@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("To purchase ,please fill in the form in this page below.")
     })
 
-    const orderForm = document.getElementById("orderForm");
+    
 
     const orderButton = document.getElementById("orderButton")
 
