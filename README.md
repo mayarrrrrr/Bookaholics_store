@@ -27,7 +27,7 @@ Bookaholics  enables:
 
    -Return of an alert on clicking the buy button.
 
-   -Submiting of an order form has name,phone and location inputs to enable purchase.
+   -Submiting of an order form that has name,phone and location inputs to enable purchase.
 
    -Display of bookshops in bookshops-display(className) div and availability of books in the store.
 
