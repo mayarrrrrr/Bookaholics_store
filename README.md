@@ -39,10 +39,20 @@ Bookaholics  enables:
  2. Note down your progress in trello.
 
  3. Create and initialize and empty private repository in Github. 
+    (https://github.com/mayarrrrrr/Bookaholics_store)
 
  4. Create the front-end part of the website using the project descriptions.
 
  5. Use a public books API(Google Books) to fetch data to be displayed.
+
+ 
+
+
+# Copyrights and License
+
+© 2024 MayarAkok
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
