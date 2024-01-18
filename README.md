@@ -15,5 +15,23 @@ Readers who are inclined to hard copies find it tiresome to walk from one booksh
 
 Bookaholics enables readers to find books of choice and see it's availability in the Bookshops named.
 
-# Project requirements.
-1.Create an empty private repository
+# Project description
+
+Bookaholics enables:
+
+   -Searching of books on the input field.
+
+   -Display of the search output on a book-display(className) div.
+
+   -Display of books with similar title on the card.
+
+   -Return of an alert on clicking the buy button.
+
+   -Submiting of an order form has name,phone and location inputs to enable purchase.
+
+   -Display of bookshops in bookshops-display(className) div and availability of books in the store.
+
+
+
+
+
