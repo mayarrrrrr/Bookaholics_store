@@ -128,6 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         
                         console.error("Invalid index:", index);
                     }
+                    
                 }
 
             
@@ -137,48 +138,25 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 setCardImage(3, "cardBook3", data);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             })
 
 
-
-
-
-
-
-
-
-
-
-
-    })
-    // Buy Now button
-    buyButton.addEventListener("click", () => {
-        alert("To purchase ,please fill in the form in this page below.")
-    })
+        })
+        
+        // Buy Now button
+        buyButton.addEventListener("click", () => {
+           alert("To purchase ,please fill in the form in this page below.")
+        })
 
     
 
-    const orderButton = document.getElementById("orderButton")
+       const orderButton = document.getElementById("orderButton")
 
-    orderButton.addEventListener("click", () => {
-        let searchValue = document.getElementById("clientName").value;
+       orderButton.addEventListener("click", () => {
+          let searchValue = document.getElementById("clientName").value;
         
 
-        alert(`${searchValue} your order is being processed.Payment is by cash on delivery.Thank you for shopping with us.`)
+          alert(`${searchValue} your order is being processed.Payment is by cash on delivery.Thank you for shopping with us.`)
     })
 
 

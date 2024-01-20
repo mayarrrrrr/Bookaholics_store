@@ -52,6 +52,8 @@ Bookaholics  enables:
 
 © 2024 MayarAkok
 
+https://mayarrrrrr.github.io/Bookaholics_store/
+
 This project is licensed under the MIT License .
 
 
